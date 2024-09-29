@@ -6,61 +6,68 @@
     <title>SkyHigh Adventures</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <!-- Needed to include for dropdown menus to work? -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
 
     <header>
-        <nav class="navbar navbar-expand-md bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+      
+        <nav class="navbar navbar-light bg-light navbar-expand-md">
+            <div class="container">
+              <a class="navbar-brand h1" href="#">
                 <img src="images/mountain-solid.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                SkyHigh Adventures</a>
-
+                SkyHigh Adventures
+              </a>
+             
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+              
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  
+                <ul class="navbar-nav ms-auto align-items-center">
+
                   <li class="nav-item">
                     <a class="nav-link" href="#">Adventures</a>
                   </li>
 
-
-                  <li class="nav-item"></li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#">Deals</a>
                   </li>
 
-                  
-                  <li class="nav-item"></li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#">Blog</a>
                   </li>
-
 
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       About Us
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Who we are</a></li>
+                      <li><a class="dropdown-item" href="#">Meet your guides</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">FAQs</a></li>
                     </ul>
                   </li>
 
-
-                  <li class="nav-item"></li>
+                  <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                   </li>
-                  
 
-                </ul>
+                  <div>
+                    <form class="container-fluid justify-content-start">
+                    <button class="btn btn-success me-2" type="button">Explore Adventures</button>
+                    </form>
 
-                  <a class="navbar-brand" href="#">
+                    </ul>
+                    <a class="navbar-brand" href="#">
                     <img src="images/user-solid.svg" alt="" width="30" height="24">
-                  </a>
+                    </a>
+                  </div>
 
               </div>
             </div>
