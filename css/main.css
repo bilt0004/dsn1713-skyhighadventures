@@ -2,6 +2,19 @@
     background-color: rgb(41, 121, 73);
 }
 
+.section-colour {
+    background-color: rgb(209, 253, 227);
+}
+
 .bold {
     font-weight: bold;
+}
+
+.banner-image img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.banner-image {
+    border: 1px solid green;
 }
