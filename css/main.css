@@ -10,11 +10,13 @@
     font-weight: bold;
 }
 
-.banner-image img {
-    height: 250px;
+.stroke img {
+    height: 350px;
+    width: 100%;
     object-fit: cover;
+    display: block;
 }
 
-.banner-image {
-    border: 1px solid green;
+.stroke {
+    border: 2px solid green;
 }
